@@ -1,0 +1,144 @@
+/*
+COLOR PALETTE
+https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
+#e3b9a5 - cashmere
+#e9c8b8 - lighter cashmere
+#efd7cc - even lighter cashmere
+#f5e6df - lightest cashmere
+#354b46 - mineral green
+*/
+
+
+
+/* Global styles
+------------------------------------*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: #354b46;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+img {
+  width: 300px;
+}
+a {
+  color: #f5e6df;
+}
+a:hover {
+  text-decoration: none;
+}
+h1 {
+  font-size: 70px;
+  line-height: 1;
+}
+h2 {
+  font-size: 30px;
+}
+h1, h2 {
+  font-family: 'Montserrat Subrayada', sans-serif;
+  font-weight: 300;
+  margin: 0;
+}
+.content-wrap {
+  max-width: 800px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+h3 {
+  margin-bottom: 0;
+}
+.item-details h3 + p {
+  font-style: italic;
+}
+.item-details h3 ~ p {
+  margin: 0;
+}
+.divider > section {
+  border-bottom: 1px dashed #354b46;
+  padding: 25px 0;
+}
+.divider > section:last-of-type {
+  border-bottom: none;
+}
+
+
+/* Profile
+------------------------------------*/
+header {
+  background: #354b46;
+  color: #e3b9a5;
+}
+
+
+/* Projects
+------------------------------------*/
+.projects {
+  background: #e9c8b8;
+}
+.projects a {
+  color: #f5e6df;
+}
+.projects .btn {
+  color: #e3b9a5;
+  background: #f5e6df;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+  display: inline-block;
+}
+.projects .btn:hover {
+  background: #354b46;
+}
+.project-item {
+  overflow: hidden;
+}
+.project-item h3 {
+  margin-top: 0;
+}
+
+
+/* Work Experience
+------------------------------------*/
+.work-experience {
+  background: #efd7cc;
+}
+
+
+
+/* Education
+------------------------------------*/
+.education {
+  background-image: url(../images/kelly-sikkema-BoAbPMRKLS0-unsplash.jpg);
+  background-size: cover;
+  background-position: top right;
+  padding-bottom: 100px;
+}
+.education p {
+  width: 60%;
+}
+
+
+/* Contact Info
+------------------------------------*/
+footer {
+  background: #354b46;
+  color: #e3b9a5;
+}
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+}
+.contact-list a {
+  padding: 15px;
+  display: inline-block;
+}
