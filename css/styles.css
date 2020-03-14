@@ -100,9 +100,23 @@ header {
 }
 
 
-/*GALLERY */
+/* GALLERY
+------------------------------------*/
+.gallery {
+  background: #e3b9a5;
+  height: 400px;
+}
 
-div.gallery {
+.galleryWrapper {
+  height: 100%;
+  align-items: center;
+  display: block;
+  padding-top: 50px;
+  margin-left: 550px;
+}
+
+.galleryItem {
+
   align-items: center;
   margin: 5px;
   border: 1px solid #ccc;
@@ -110,16 +124,17 @@ div.gallery {
   width: 180px;
 }
 
-div.gallery:hover {
+.galleryItem:hover {
   border: 1px solid #777;
 }
 
-div.gallery img {
+.galleryItem img {
+  align-items: center;
   width: 100%;
   height: auto;
 }
 
-div.desc {
+.desc {
   padding: 15px;
   text-align: center;
 }
@@ -162,6 +177,7 @@ h5{
   font-size: 20px;
 }
 .backbutton{
+  position: absolute;
   background: #e3b9a5;
   padding:5px;
   border-radius:4px;
